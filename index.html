@@ -9,17 +9,30 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Snicks</title>
+    <title>👟Snicks</title>
   </head>
   <body>
-    <header>
-      <h1>Sni<span>cks</span></h1>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Contact</a>
-        <a href="#">About</a>
+    <header class="main_header">
+      <div class="logo">
+        <h1 class="logo_title">Sni<span>Cks</span></h1>
+      </div>
+
+      <div class="search_container">
+        <input placeholder="Search..." type="text" />
+        <span class="material-symbols-outlined search_icon">search</span>
+      </div>
+
+      <nav class="nav_icons">
+        <a href="#"> <span class="material-symbols-outlined">home</span></a>
+        <a href="#"> <span class="material-symbols-outlined">person</span></a>
+        <a href="#">
+          <span class="material-symbols-outlined">shopping_cart</span></a
+        >
       </nav>
     </header>
 
@@ -203,5 +216,5 @@
       </div>
     </template>
   </body>
-  <script src=""></script>
+  <script src="cartCalculator.js" defer></script>
 </html>
